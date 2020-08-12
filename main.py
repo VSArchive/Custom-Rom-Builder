@@ -110,7 +110,7 @@ def sync():
 
 
 def envsetup():
-    os.system(". build/envsetup.sh")
+    os.system("source build/envsetup.sh")
     exitOption = input("If you want to customise any thing press (Y) to exit else (N) to continue to build (Y/N) : ")
     if exitOption == 'Y' or exitOption == 'y':
         exit
