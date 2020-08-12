@@ -147,7 +147,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "lunch aosp_" + codeName + "-userdebug"
+        lunch = "lunch aosp_onclite-userdebug"
         os.system(lunch)
         os.system("mka aex -j$(nproc --all)")
 
@@ -161,7 +161,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "lunch aosp_" + codeName + "-userdebug"
+        lunch = "lunch aosp_onclite-userdebug"
         os.system(lunch)
         os.system("mka bacon -j$(nproc --all)")
 
@@ -175,7 +175,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "lunch havoc_" + codeName + "-userdebug"
+        lunch = "lunch havoc_onclite-userdebug"
         os.system(lunch)
 
     elif romOption == 5:
@@ -187,7 +187,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "lunch aosp_" + codeName + "-userdebug"
+        lunch = "lunch aosp_onclite-userdebug"
         os.system(lunch)
         os.system("mka bacon -j$(nproc --all)")
 
@@ -201,7 +201,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "blissify bliss_" + codeName + "-userdebug"
+        lunch = "blissify bliss_onclite-userdebug"
         os.system(lunch)
 
     elif romOption == 7:
@@ -214,7 +214,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "lunch xtended_" + codeName + "-userdebug"
+        lunch = "lunch xtended_onclite-userdebug"
         os.system(lunch)
         os.system("make xtended")
 
@@ -227,7 +227,7 @@ if deviceOption == 1:
         os.system(gitKernel)
         os.system(gitVendor)
         envsetup()
-        lunch = "lunch derp_" + codeName + "-userdebug"
+        lunch = "lunch derp_onclite-userdebug"
         os.system(lunch)
         os.system("mka kronic")
 
